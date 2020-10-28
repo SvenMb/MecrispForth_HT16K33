@@ -18,8 +18,7 @@
     
     $70 i2c-addr $EF >i2c 0 i2c-xfer \ set max brightness (bit 0-3)
     $70 i2c-addr $E0 >i2c 0 i2c-xfer \ set min brightness
-    
-    
+
     $70 i2c-addr $00 >i2c $FF >i2c 0 i2c-xfer \ first digit 8 segments for "7-segment"
     $70 i2c-addr $01 >i2c $FF >i2c 0 i2c-xfer \ first digit other 8 segments
     $70 i2c-addr $02 >i2c $FF >i2c 0 i2c-xfer \ second digit 8 segments for "7-segment"
