@@ -29,3 +29,8 @@
     $70 i2c-addr $07 >i2c $FF >i2c 0 i2c-xfer \ fourth digit other 8 segments
     
 **words need to be writen :)**
+
+## Schematics
+
+* SDA and SCl need pullup vi 10k resistor (if other i2c devices are connected, most often they already have it)
+
