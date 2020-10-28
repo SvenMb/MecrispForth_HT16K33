@@ -6,7 +6,7 @@
 
 #### init
 
-    $70 i2c-init i2c. \ init i2c and display avaiable devices
+    i2c-init i2c. \ init i2c and display avaiable devices
     $70 i2c-addr $21 >i2c 0 i2c-xfer \ set oscilator on (bit 0)
     $70 i2c-addr $81 >i2c 0 i2c-xfer \ set display on (bit 0)
     $70 i2c-addr $EF >i2c 0 i2c-xfer \ set max brightness (bit 0-3)
