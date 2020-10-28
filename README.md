@@ -32,5 +32,5 @@
 
 ## Schematics
 
-* SDA and SCl need pullup vi 10k resistor (if other i2c devices are connected, most often they already have it)
+* SDA and SCl need pullup via 10k resistor (if other i2c devices are connected, most often they already have it)
 
