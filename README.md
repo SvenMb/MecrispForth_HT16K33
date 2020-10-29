@@ -1,5 +1,7 @@
 # MecrispForth_HT16K33
 
+*currently only collecting informations*
+
 ## Forth Words for HT16K33
 
 ### 14 segment LED Display with HT16K33
